@@ -41,28 +41,19 @@ int main(int argc, char **argv){
         }
 
         SDL_Delay(2);
-        //usleep(2000); 
     }
 
     return 0;
 }
 
 
-
 void debug_draw(struct chip8 *C) {
-    // This command clears the terminal screen so the next frame 
-    // prints in the same spot instead of scrolling down.
-    printf("\033[H\033[J"); 
 
     for (int y = 0; y < 32; y++) {
         for (int x = 0; x < 64; x++) {
-            // Calculate the 1D index from 2D coordinates
             if (C->display[x + (y * 64)] == 1) {
-                printf("#"); // Pixel is ON
             } else {
-                printf(" "); // Pixel is OFF
             }
         }
-        printf("\n"); // Move to the next row
     }
 }
