@@ -5,8 +5,8 @@ First attempt at programming an emulator, havent added audio yet. SDL has to be 
 
 
 
-![ezgif com-video-to-gif-converter](https://github.com/user-attachments/assets/82d9380d-b29b-461c-978a-7b7be481c1f7)
 
+![ezgif com-video-to-gif-converter (1)](https://github.com/user-attachments/assets/40223d5c-92a1-49e8-aa5c-b78f9fca4659)
 
 
 
